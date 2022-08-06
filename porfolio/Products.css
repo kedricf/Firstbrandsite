@@ -1,0 +1,134 @@
+.topnav {
+  background-color: rgb(85, 194, 13);
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+}
+
+.topnav input[type=text] {
+  border: 1px solid #ccc;
+}
+
+
+body{
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgba(34, 20, 155, 0.158);
+}
+
+.hero{
+ 
+  background-image: url(pagelogo.png);
+
+}
+
+h1{
+  text-align: center;
+  color: rgb(24, 22, 22);
+}
+
+p{
+  color: rgb(24, 22, 22);
+}
+
+h2{
+  text-align: center;
+  color: rgb(24, 22, 22);
+} 
+
+p{
+  color: rgb(24, 2, 22);
+}
+
+p{
+  color: rgb(24, 22, 22);
+}
+
+h3{
+  text-align: center;
+  color: rgb(24, 22, 22);
+}
+
+.BBLjuice{
+  display: grid;
+  position: relative;
+  grid-template-rows: auto 1fr;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgb(24, 2, 22);
+
+}
+
+.BBLjuice img{
+  position: relative;
+  width: 100;
+border-radius: 15px 15px 0 0 ;
+}
+
+.Details{
+  padding: 20px 10px;
+  display: grid;
+  grid-template-rows: auto 1fr 50px;
+  grid-row-gap: 15px;
+}
+
+.Item{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.Price{
+  text-align: right;
+}
+
+.Details>p{
+  color: rgb(24, 2, 22);
+  font-size: 15px;
+line-height: 28px;
+font-weight: 400;
+align-self: stretch;
+}
+
+.Details>button{
+  background-color: green;
+  border: none;
+  color: #ccc;
+  font-size: 16px;
+   font-weight: 600;
+   border-radius: 5px;
+   width: 180px;
+
+
+
+}
